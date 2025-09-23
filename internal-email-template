@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GAZ Việt Nam</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #eeeeee;
+      font-family: Arial, sans-serif;
+    "
+  >
+    <div
+      style="
+        max-width: 600px;
+        margin: 30px auto;
+        background-color: rgba(255, 255, 255, 0.6);
+        background-image: url('https://stag-gaz.topon.tech/assets/img/email-template-background-image.png');
+        background-repeat: no-repeat;
+        background-position: left -290px top -125px;
+        background-size: cover;
+        background-blend-mode: lighten;
+        border-radius: 24px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      "
+    >
+      <!-- Header -->
+      <header
+        style="
+          background-color: #008696;
+          padding: 25px;
+          text-align: center;
+          border-bottom-left-radius: 24px;
+          border-bottom-right-radius: 24px;
+          opacity: 0.9;
+        "
+      >
+        <img
+          src="https://stag-gaz.topon.tech/media/vwwdwse1/gaz.svg"
+          alt="GAZ Việt Nam"
+          style="display: block; max-width: 90px; height: auto; margin: 0 auto"
+        />
+      </header>
 
+      <!-- Nội dung -->
+      <section
+        style="padding: 30px; color: #333333; font-size: 16px; line-height: 1.6"
+      >
+        <h2 style="margin-top: 0; font-size: 22px; color: #008696">
+          Xin chào {{name}},<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666"
+            >Hello {{name}},</span
+          >
+        </h2>
+
+        <p>
+          Cảm ơn bạn đã liên hệ với <strong>GAZ Việt Nam</strong>. Chúng tôi đã
+          tiếp nhận thông tin và sẽ phản hồi sớm nhất.<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666"
+            >Thank you for contacting <strong>GAZ Vietnam</strong>. We have
+            received your information and will respond as soon as
+            possible.</span
+          >
+        </p>
+
+        <!-- Bảng thông tin -->
+        <table
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="
+            background-color: transparent;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+          "
+        >
+          <tr>
+            <td
+              style="
+                padding: 8px 10px;
+                vertical-align: top;
+                font-weight: bold;
+                color: #333333;
+                width: 120px;
+              "
+            >
+              Email:
+              <br />
+              <span style="font-size: 13px; font-style: italic; color: #666666"
+                >Email</span
+              >
+            </td>
+            <td style="padding: 8px 10px; color: #333333">{{email}}<br /></td>
+          </tr>
+          <tr>
+            <td
+              style="
+                padding: 8px 10px;
+                vertical-align: top;
+                font-weight: bold;
+                color: #333333;
+              "
+            >
+              SĐT:
+              <br />
+              <span style="font-size: 13px; font-style: italic; color: #666666"
+                >Phone number</span
+              >
+            </td>
+            <td style="padding: 8px 10px; color: #333333">{{phone}}</td>
+          </tr>
+          <tr>
+            <td
+              style="
+                padding: 8px 10px;
+                vertical-align: top;
+                font-weight: bold;
+                color: #333333;
+              "
+            >
+              Nội dung:
+              <br />
+              <span style="font-size: 13px; font-style: italic; color: #666666"
+                >Message content</span
+              >
+            </td>
+            <td style="padding: 8px 10px; color: #333333">{{message}}</td>
+          </tr>
+        </table>
+
+        <p>
+          Trân trọng,<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666"
+            >Sincerely,</span
+          >
+        </p>
+
+        <p>
+          Đội ngũ GAZ Việt Nam<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666"
+            >GAZ Vietnam Team</span
+          >
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer style="text-align: center; padding: 0; margin: 0">
+        <img
+          src="https://stag-gaz.topon.tech/assets/img/email-template-footer-image.jpg"
+          alt="GAZ Vietnam Footer"
+          style="
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            margin: 0 auto;
+          "
+        />
+      </footer>
+    </div>
+  </body>
+</html>
