@@ -2,7 +2,7 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <title>GAZ Việt Nam</title>
+    <title>Thông báo liên hệ mới - GAZ Việt Nam</title>
   </head>
   <body
     style="
@@ -50,20 +50,17 @@
         style="padding: 30px; color: #333333; font-size: 16px; line-height: 1.6"
       >
         <h2 style="margin-top: 0; font-size: 22px; color: #008696">
-          Xin chào {{name}},<br />
-          <span style="font-size: 14px; font-style: italic; color: #666666"
-            >Hello {{name}},</span
-          >
+          📩 Có khách hàng mới liên hệ qua website<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666">
+            New contact submission from website
+          </span>
         </h2>
 
         <p>
-          Cảm ơn bạn đã liên hệ với <strong>GAZ Việt Nam</strong>. Chúng tôi đã
-          tiếp nhận thông tin và sẽ phản hồi sớm nhất.<br />
-          <span style="font-size: 14px; font-style: italic; color: #666666"
-            >Thank you for contacting <strong>GAZ Vietnam</strong>. We have
-            received your information and will respond as soon as
-            possible.</span
-          >
+          Hệ thống vừa nhận được một yêu cầu liên hệ từ khách hàng. Vui lòng kiểm tra thông tin bên dưới để xử lý.<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666">
+            A new contact request has been submitted. Please review the details below.
+          </span>
         </p>
 
         <!-- Bảng thông tin -->
@@ -88,13 +85,12 @@
                 width: 120px;
               "
             >
-              Email:
-              <br />
-              <span style="font-size: 13px; font-style: italic; color: #666666"
-                >Email</span
-              >
+              Họ tên:<br />
+              <span style="font-size: 13px; font-style: italic; color: #666666">
+                Full name
+              </span>
             </td>
-            <td style="padding: 8px 10px; color: #333333">{{email}}<br /></td>
+            <td style="padding: 8px 10px; color: #333333">{{name}}</td>
           </tr>
           <tr>
             <td
@@ -105,11 +101,26 @@
                 color: #333333;
               "
             >
-              SĐT:
-              <br />
-              <span style="font-size: 13px; font-style: italic; color: #666666"
-                >Phone number</span
-              >
+              Email:<br />
+              <span style="font-size: 13px; font-style: italic; color: #666666">
+                Email
+              </span>
+            </td>
+            <td style="padding: 8px 10px; color: #333333">{{email}}</td>
+          </tr>
+          <tr>
+            <td
+              style="
+                padding: 8px 10px;
+                vertical-align: top;
+                font-weight: bold;
+                color: #333333;
+              "
+            >
+              SĐT:<br />
+              <span style="font-size: 13px; font-style: italic; color: #666666">
+                Phone number
+              </span>
             </td>
             <td style="padding: 8px 10px; color: #333333">{{phone}}</td>
           </tr>
@@ -122,28 +133,36 @@
                 color: #333333;
               "
             >
-              Nội dung:
-              <br />
-              <span style="font-size: 13px; font-style: italic; color: #666666"
-                >Message content</span
-              >
+              Nội dung:<br />
+              <span style="font-size: 13px; font-style: italic; color: #666666">
+                Message content
+              </span>
             </td>
             <td style="padding: 8px 10px; color: #333333">{{message}}</td>
+          </tr>
+          <tr>
+            <td
+              style="
+                padding: 8px 10px;
+                vertical-align: top;
+                font-weight: bold;
+                color: #333333;
+              "
+            >
+              Thời gian gửi:<br />
+              <span style="font-size: 13px; font-style: italic; color: #666666">
+                Submitted at
+              </span>
+            </td>
+            <td style="padding: 8px 10px; color: #333333">{{submitted_at}}</td>
           </tr>
         </table>
 
         <p>
-          Trân trọng,<br />
-          <span style="font-size: 14px; font-style: italic; color: #666666"
-            >Sincerely,</span
-          >
-        </p>
-
-        <p>
-          Đội ngũ GAZ Việt Nam<br />
-          <span style="font-size: 14px; font-style: italic; color: #666666"
-            >GAZ Vietnam Team</span
-          >
+          Vui lòng phản hồi khách hàng trong thời gian sớm nhất.<br />
+          <span style="font-size: 14px; font-style: italic; color: #666666">
+            Please respond to the customer as soon as possible.
+          </span>
         </p>
       </section>
 
